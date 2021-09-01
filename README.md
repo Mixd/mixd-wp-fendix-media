@@ -14,7 +14,7 @@ Download a zip file from the Github repository, extract it and add it to the 'pl
 If you have access to Mixd's private composer repository you can install it quite simply with
 
 ```
-composer require mixd/fendix-media
+composer require mixd/mixd-wp-fendix-media
 ```
 
 ## Configuration
@@ -29,3 +29,17 @@ define("FENDIX_TRUST_URN", "MY_URN_HERE");
 ```
 
 If you choose to use the PHP constant then the settings page will be disabled.
+
+## Usage
+
+To output the Fendix Media advert on a Page you can simply do:
+
+```php
+do_action("fendix_media");
+```
+
+This will print the following code to screen
+
+```html
+<div id="fendix" class="fendix-ad"></div>
+```
