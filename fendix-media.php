@@ -79,7 +79,7 @@ add_action('wp_enqueue_scripts', function () {
 
     $user = wp_get_current_user();
 
-    if (is_a($user, WP_User::class)) {
+    if (is_a($user, WP_User::class) && $user->ID !== 0 && isset($user->data->user_email)) {
         $email = $user->data->user_email;
     } else {
         $email = "";
