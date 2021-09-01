@@ -3,7 +3,7 @@
 /*
 Plugin Name: Mixd Plugins - Fendix Media
 Description: Adds support for <a href="https://www.fendixmedia.co.uk/" rel="nofollow" target="_blank">Fendix Media</a> adverts to WordPress.
-Version: 1.0.0
+Version: 1.0.1
 Author: Mixd
 Author URI: https://www.mixd.co.uk
 */
